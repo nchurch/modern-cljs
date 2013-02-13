@@ -124,7 +124,7 @@ namespace, and `sel`, in the `domina.css` namespace. But it also features the
 `by-id`, `value` and `set-value!` functions defined in the `domina` core
 namespace, which is the one we're going to use.
 
-The nice thing about domina `(by-id id)`, inherited by the underlying
+The nice thing about domina `(by-id id)`, inherited from the underlying
 Google Closure library on which `domina` is implemented, is that it
 takes care of verifying if the passed argument is a string. As we
 anticipated, the `domina` core namespace offers other useful functions we're
